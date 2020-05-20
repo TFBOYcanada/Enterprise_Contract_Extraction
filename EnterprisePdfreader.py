@@ -116,5 +116,3 @@ want1 = ['Start', 'End', 'Driven', 'Charged', 'Model', '(CAD)CAD', 'DISTANCECAD'
 want2 = ['Plate', 'DETAILSVEHICLE']  # find before
 
 a=pdf_parse(filepath)
-
-#print(a)
