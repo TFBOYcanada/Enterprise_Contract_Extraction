@@ -61,7 +61,5 @@ df['Class']=df['Class'].map(lambda x: CD.decode(x))
 
 
 df.to_csv('rentaldata.csv')
-#df.to_excel('EnterpriseRentalData.xls')
-
 
 logging.debug('Records: %s', df['Class'])
